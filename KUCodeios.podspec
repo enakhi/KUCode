@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "KUCode"
-  spec.version      = "0.0.5"
+  spec.name         = "KUCodeios"
+  spec.version      = "0.0.7"
   spec.summary      = "kucode base classes"
 
   # This description is used to generate tags and improve search results.
