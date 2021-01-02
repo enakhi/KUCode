@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 you can find base classes in this lib
                    DESC
 
-  spec.homepage     = "https://gitlab.kubakgroup.com/behnam.hosseini/kucodeios"
+  spec.homepage     = "hhttps://github.com/enakhi/KUCode"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ you can find base classes in this lib
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://gitlab.kubakgroup.com/behnam.hosseini/kucodeios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/enakhi/KUCode.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
