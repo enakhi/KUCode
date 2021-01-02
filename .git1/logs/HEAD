@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 1821410fd473117aa1e0a406673a86076e49c09a behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609145339 +0330	commit (initial): Initial Commit
+1821410fd473117aa1e0a406673a86076e49c09a cfacf56583023d2c7051ea7276bb3a9ec8a38de4 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609325474 +0330	commit: adding comunication classes
+cfacf56583023d2c7051ea7276bb3a9ec8a38de4 f779c17cb6c374c074d844dc7b21b71bb48442f7 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609583563 +0330	commit: podify
+f779c17cb6c374c074d844dc7b21b71bb48442f7 21f59981ae3fa491878d0961e00b38e4ea38df35 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609583973 +0330	commit: fix pod spec errors
+21f59981ae3fa491878d0961e00b38e4ea38df35 94a97fb800a1f715551387526ca09478d353ba71 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609584100 +0330	commit: fix pod spec errors
+94a97fb800a1f715551387526ca09478d353ba71 56d89fcbac99217e8317a816bd4b043596488fb7 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609584237 +0330	commit: fix pod spec errors
+56d89fcbac99217e8317a816bd4b043596488fb7 434d188b69c7b902a4db1d235529e601974f1d35 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609585872 +0330	commit: fix classes
+434d188b69c7b902a4db1d235529e601974f1d35 3e3795cf8fab698682b97ee827d7b2a10b3fe1a6 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609587516 +0330	commit: make class properties public
+3e3795cf8fab698682b97ee827d7b2a10b3fe1a6 368e707b4e3c0a8011f27a9c008e15627e333206 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609587563 +0330	commit: fix version
+368e707b4e3c0a8011f27a9c008e15627e333206 82760e6eb9853f2c9a1aca5c9a92b9a007b999a8 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609587811 +0330	commit: fix pod errors
+82760e6eb9853f2c9a1aca5c9a92b9a007b999a8 a055aec7caf8031c6b479dec61ccf2bfb6e198c2 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609588126 +0330	commit: fix pod errors
+a055aec7caf8031c6b479dec61ccf2bfb6e198c2 d405910ab54c8d2d62e74929dd5039df27729792 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609588170 +0330	commit: fix pod errors
+d405910ab54c8d2d62e74929dd5039df27729792 0c74244b8cbf3dde3f04b6114d96523fa540e042 behnam.hosseini <behnam.hosseini@kubakgroup.com> 1609588499 +0330	commit: fix pod errors

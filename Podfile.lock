@@ -1,0 +1,21 @@
+PODS:
+  - KUEventBus (0.0.4)
+
+DEPENDENCIES:
+  - KUEventBus (from `https://gitlab.kubakgroup.com/behnam.hosseini/kueventbusios.git`)
+
+EXTERNAL SOURCES:
+  KUEventBus:
+    :git: https://gitlab.kubakgroup.com/behnam.hosseini/kueventbusios.git
+
+CHECKOUT OPTIONS:
+  KUEventBus:
+    :commit: 8f3fd334592a3ee214b5030b9dcd8fc9407b1957
+    :git: https://gitlab.kubakgroup.com/behnam.hosseini/kueventbusios.git
+
+SPEC CHECKSUMS:
+  KUEventBus: 4901866a0408de178661f74f1e9435aac93b760c
+
+PODFILE CHECKSUM: 8aa4ba8c23b9cee956c611c512099499345e458f
+
+COCOAPODS: 1.10.0

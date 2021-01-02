@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158A8C10480FE03F94BD8D7191549793 /* KUEventBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 949A002DBDC0B7EDADF4E72B97FC2FFF /* KUEventBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F616AA61059899008BD2EF55FE33F1 /* KUEventBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EB0254B89E50E1EC8FDF4AC2B8B46E /* KUEventBus-dummy.m */; };
+		68E61C3DEBEE1C1A41B0D44E509A926A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7ECE7B6E9F82B0CD1DD59387DCBFF31B /* Pods-KuCodeIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F841FC50DC55AB08D7674CECA8F0A67E /* Pods-KuCodeIOS-dummy.m */; };
+		8BAE46BBDD0385D369120F8BDC0E2C51 /* KUEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA015230385723E8F148ABC748687C4F /* KUEventBus.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8BD92E056630C308104404D5586AC555 /* KUEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8C3D81EDFA463A734BB49F8ECD28D /* KUEvent.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E4533415D6E4A262439F85D93425F9A /* Subscribtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800D075034C0EF35A48FD6F4A97A412 /* Subscribtion.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC482CFCD89237C0A798BD277FBDD910 /* Pods-KuCodeIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDF38706BA6B6142CEA26609D346D39 /* Pods-KuCodeIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE81740C228B2BFBB0D0DFBBE65B86DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F24E2B1C18F02444FBC0684C2EDB3A81 /* KUEvnetParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710E4ABACA816C36746C53E4B6AA157 /* KUEvnetParent.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAB89C554DEB9F2057441FC8198606C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0732355E4952B6C41B0D21B69BDEAD95;
+			remoteInfo = KUEventBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EB0254B89E50E1EC8FDF4AC2B8B46E /* KUEventBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KUEventBus-dummy.m"; sourceTree = "<group>"; };
+		1006C958006B76D0AD289C7A14ED7CC9 /* KUEventBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KUEventBus.release.xcconfig; sourceTree = "<group>"; };
+		1800D075034C0EF35A48FD6F4A97A412 /* Subscribtion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscribtion.swift; path = KUEventBus/Subscribtion.swift; sourceTree = "<group>"; };
+		24DEDF72F2916C524C97C77C03234632 /* KUEventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUEventBus-prefix.pch"; sourceTree = "<group>"; };
+		25A0721B911A596D024546A6AA209CFB /* Pods-KuCodeIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KuCodeIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2710E4ABACA816C36746C53E4B6AA157 /* KUEvnetParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUEvnetParent.swift; path = KUEventBus/KUEvnetParent.swift; sourceTree = "<group>"; };
+		2FEB837FB23C975FFC969A4416CC3ED5 /* Pods-KuCodeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuCodeIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2FFD2D43F1EAFAE5F932947DF2C0AF0F /* Pods_KuCodeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KuCodeIOS.framework; path = "Pods-KuCodeIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE1D21534A664A7D1D11C63B76FFA1 /* Pods-KuCodeIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KuCodeIOS.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FAB341D38C3B897CBCD5F61F75A5373 /* KUEventBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KUEventBus.framework; path = KUEventBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8041099AB3790E785097A196E54DE135 /* Pods-KuCodeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KuCodeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		949A002DBDC0B7EDADF4E72B97FC2FFF /* KUEventBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUEventBus-umbrella.h"; sourceTree = "<group>"; };
+		97C1241E44135B6A41908109E4597445 /* Pods-KuCodeIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KuCodeIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		9989AFE8F0DA4FDEB47842D498689775 /* KUEventBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KUEventBus.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA015230385723E8F148ABC748687C4F /* KUEventBus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUEventBus.swift; path = KUEventBus/KUEventBus.swift; sourceTree = "<group>"; };
+		AEC0673906ADE92D587DB036ACBF7F7E /* KUEventBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KUEventBus.debug.xcconfig; sourceTree = "<group>"; };
+		B4E8C3D81EDFA463A734BB49F8ECD28D /* KUEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUEvent.swift; path = KUEventBus/KUEvent.swift; sourceTree = "<group>"; };
+		DD9CE60ED91DCF25B7ED47EBC8CFC65C /* KUEventBus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KUEventBus-Info.plist"; sourceTree = "<group>"; };
+		EEDF38706BA6B6142CEA26609D346D39 /* Pods-KuCodeIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KuCodeIOS-umbrella.h"; sourceTree = "<group>"; };
+		EFB30DB89B325E897B706C1481A3D51C /* Pods-KuCodeIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KuCodeIOS-Info.plist"; sourceTree = "<group>"; };
+		F841FC50DC55AB08D7674CECA8F0A67E /* Pods-KuCodeIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KuCodeIOS-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32378F27B82868744823913864A37B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E61C3DEBEE1C1A41B0D44E509A926A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3876E5B8C7938FAA56798CDBE5CC235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE81740C228B2BFBB0D0DFBBE65B86DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D454C9BF0ED78087CAE937DDEC26C33 /* KUEventBus */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8C3D81EDFA463A734BB49F8ECD28D /* KUEvent.swift */,
+				AA015230385723E8F148ABC748687C4F /* KUEventBus.swift */,
+				2710E4ABACA816C36746C53E4B6AA157 /* KUEvnetParent.swift */,
+				1800D075034C0EF35A48FD6F4A97A412 /* Subscribtion.swift */,
+				9BF6965D45112241FC433966F327B4D8 /* Support Files */,
+			);
+			name = KUEventBus;
+			path = KUEventBus;
+			sourceTree = "<group>";
+		};
+		53F8138A00B0596A3CFEEC159F959EC8 /* Pods-KuCodeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				44DE1D21534A664A7D1D11C63B76FFA1 /* Pods-KuCodeIOS.modulemap */,
+				25A0721B911A596D024546A6AA209CFB /* Pods-KuCodeIOS-acknowledgements.markdown */,
+				97C1241E44135B6A41908109E4597445 /* Pods-KuCodeIOS-acknowledgements.plist */,
+				F841FC50DC55AB08D7674CECA8F0A67E /* Pods-KuCodeIOS-dummy.m */,
+				EFB30DB89B325E897B706C1481A3D51C /* Pods-KuCodeIOS-Info.plist */,
+				EEDF38706BA6B6142CEA26609D346D39 /* Pods-KuCodeIOS-umbrella.h */,
+				2FEB837FB23C975FFC969A4416CC3ED5 /* Pods-KuCodeIOS.debug.xcconfig */,
+				8041099AB3790E785097A196E54DE135 /* Pods-KuCodeIOS.release.xcconfig */,
+			);
+			name = "Pods-KuCodeIOS";
+			path = "Target Support Files/Pods-KuCodeIOS";
+			sourceTree = "<group>";
+		};
+		554D3AC2656B8B93EA93FD21CD697FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAB341D38C3B897CBCD5F61F75A5373 /* KUEventBus.framework */,
+				2FFD2D43F1EAFAE5F932947DF2C0AF0F /* Pods_KuCodeIOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A44104A46B084C85F797D38A3344FBC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F8138A00B0596A3CFEEC159F959EC8 /* Pods-KuCodeIOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9BF6965D45112241FC433966F327B4D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9989AFE8F0DA4FDEB47842D498689775 /* KUEventBus.modulemap */,
+				00EB0254B89E50E1EC8FDF4AC2B8B46E /* KUEventBus-dummy.m */,
+				DD9CE60ED91DCF25B7ED47EBC8CFC65C /* KUEventBus-Info.plist */,
+				24DEDF72F2916C524C97C77C03234632 /* KUEventBus-prefix.pch */,
+				949A002DBDC0B7EDADF4E72B97FC2FFF /* KUEventBus-umbrella.h */,
+				AEC0673906ADE92D587DB036ACBF7F7E /* KUEventBus.debug.xcconfig */,
+				1006C958006B76D0AD289C7A14ED7CC9 /* KUEventBus.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KUEventBus";
+			sourceTree = "<group>";
+		};
+		CD20016653DC829BBA322095A488D4F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D454C9BF0ED78087CAE937DDEC26C33 /* KUEventBus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CD20016653DC829BBA322095A488D4F4 /* Pods */,
+				554D3AC2656B8B93EA93FD21CD697FEA /* Products */,
+				6A44104A46B084C85F797D38A3344FBC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CFC47FF2A6E041DA985F8AC66E26251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC482CFCD89237C0A798BD277FBDD910 /* Pods-KuCodeIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B656E04A6FAF37437A8FD385E550DBD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158A8C10480FE03F94BD8D7191549793 /* KUEventBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0732355E4952B6C41B0D21B69BDEAD95 /* KUEventBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9F4B6440A7CD527327B5123B363A4E /* Build configuration list for PBXNativeTarget "KUEventBus" */;
+			buildPhases = (
+				B656E04A6FAF37437A8FD385E550DBD4 /* Headers */,
+				F0767568826619ADFDFB7EE29252A9BE /* Sources */,
+				32378F27B82868744823913864A37B6C /* Frameworks */,
+				E86B3F80887AC2D716412FF66E6976E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KUEventBus;
+			productName = KUEventBus;
+			productReference = 7FAB341D38C3B897CBCD5F61F75A5373 /* KUEventBus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E798B2A9FF997C60ED718D53C2224AA /* Pods-KuCodeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7413F25BD3B73F524CC839F336D84B /* Build configuration list for PBXNativeTarget "Pods-KuCodeIOS" */;
+			buildPhases = (
+				3CFC47FF2A6E041DA985F8AC66E26251 /* Headers */,
+				A82E174454373AA20C84BD22A2212DFC /* Sources */,
+				E3876E5B8C7938FAA56798CDBE5CC235 /* Frameworks */,
+				8BD45DD9D77ECAFF1E6F321145ED501E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C32CEC598B5263DB5B532DCBF602892 /* PBXTargetDependency */,
+			);
+			name = "Pods-KuCodeIOS";
+			productName = "Pods-KuCodeIOS";
+			productReference = 2FFD2D43F1EAFAE5F932947DF2C0AF0F /* Pods_KuCodeIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 554D3AC2656B8B93EA93FD21CD697FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0732355E4952B6C41B0D21B69BDEAD95 /* KUEventBus */,
+				1E798B2A9FF997C60ED718D53C2224AA /* Pods-KuCodeIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD45DD9D77ECAFF1E6F321145ED501E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86B3F80887AC2D716412FF66E6976E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82E174454373AA20C84BD22A2212DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECE7B6E9F82B0CD1DD59387DCBFF31B /* Pods-KuCodeIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0767568826619ADFDFB7EE29252A9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD92E056630C308104404D5586AC555 /* KUEvent.swift in Sources */,
+				23F616AA61059899008BD2EF55FE33F1 /* KUEventBus-dummy.m in Sources */,
+				8BAE46BBDD0385D369120F8BDC0E2C51 /* KUEventBus.swift in Sources */,
+				F24E2B1C18F02444FBC0684C2EDB3A81 /* KUEvnetParent.swift in Sources */,
+				8E4533415D6E4A262439F85D93425F9A /* Subscribtion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C32CEC598B5263DB5B532DCBF602892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KUEventBus;
+			target = 0732355E4952B6C41B0D21B69BDEAD95 /* KUEventBus */;
+			targetProxy = CFAB89C554DEB9F2057441FC8198606C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		540F8D8B5241BA543A9AB43816C213D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1006C958006B76D0AD289C7A14ED7CC9 /* KUEventBus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KUEventBus/KUEventBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KUEventBus/KUEventBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KUEventBus/KUEventBus.modulemap";
+				PRODUCT_MODULE_NAME = KUEventBus;
+				PRODUCT_NAME = KUEventBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C251C70FA43CB07DFD8367A05B0202C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC0673906ADE92D587DB036ACBF7F7E /* KUEventBus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KUEventBus/KUEventBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KUEventBus/KUEventBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KUEventBus/KUEventBus.modulemap";
+				PRODUCT_MODULE_NAME = KUEventBus;
+				PRODUCT_NAME = KUEventBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCA27BC4454770864C5BDB67448B1929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEB837FB23C975FFC969A4416CC3ED5 /* Pods-KuCodeIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KuCodeIOS/Pods-KuCodeIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuCodeIOS/Pods-KuCodeIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E76A3D8320D94F5257FB6E2A91704F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8041099AB3790E785097A196E54DE135 /* Pods-KuCodeIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KuCodeIOS/Pods-KuCodeIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KuCodeIOS/Pods-KuCodeIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9F4B6440A7CD527327B5123B363A4E /* Build configuration list for PBXNativeTarget "KUEventBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C251C70FA43CB07DFD8367A05B0202C /* Debug */,
+				540F8D8B5241BA543A9AB43816C213D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7413F25BD3B73F524CC839F336D84B /* Build configuration list for PBXNativeTarget "Pods-KuCodeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA27BC4454770864C5BDB67448B1929 /* Debug */,
+				E76A3D8320D94F5257FB6E2A91704F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

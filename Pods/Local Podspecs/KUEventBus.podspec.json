@@ -1,0 +1,26 @@
+{
+  "name": "KUEventBus",
+  "version": "0.0.4",
+  "summary": "event bus for kubak in swift language",
+  "description": "kbEvent bus is a bus for transmitting events between event handlers",
+  "homepage": "https://gitlab.kubakgroup.com/behnam.hosseini/kueventbusios",
+  "license": "MIT",
+  "authors": {
+    "behnam.hosseini": "behnam.hosseini@kubakgroup.com"
+  },
+  "source": {
+    "git": "https://gitlab.kubakgroup.com/behnam.hosseini/kueventbusios.git",
+    "tag": "0.0.4"
+  },
+  "source_files": [
+    "Classes",
+    "KUEventBus/**/*.{m,swift}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
